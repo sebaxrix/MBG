@@ -4,7 +4,7 @@ clc
 clear all
 
 
-file1 = 'C:\Users\user\Downloads\Parcial3.xlsx';
+%file1 = 'Open Excel File';
 sheet = 2;
 xlRange = 'A1:IS1';
 SW = xlsread(file1,sheet,xlRange)
