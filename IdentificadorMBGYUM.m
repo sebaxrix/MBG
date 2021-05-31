@@ -4,7 +4,7 @@
 clc
 clear all
 
-file1 = "C:\Users\USER-PC\Desktop\2021-1\Procesos Estocasticos\Trabajo Final\Parcial3.xlsx";
+%file1 = "Open excel file";
 sheet = 2;
 xlRange = 'A1:IS1';
 X = xlsread(file1,sheet,xlRange);
